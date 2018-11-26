@@ -1,8 +1,8 @@
-def Fizzbuzz(a, b):
-    if not (isinstance(a, list) and isinstance(b, list)):
+def Fizzbuzz(x, y):
+    if not (isinstance(x, list) and isinstance(y, list)):
         return "Invalid input"
 
-    newlist = a+b
+    newlist = x+y
     mylist = len(newlist)
 
     if(mylist % 5 == 0 and mylist % 3 == 0):
